@@ -6,7 +6,16 @@ body{
 
 .boxwrapper{
 	display: flex;
-	 width: 50%;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.demotext
+{
+
+	width: 50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -27,18 +36,14 @@ body{
 .showtxt 
 {
 	display: block;
-	border: 2px solid gray;
-	padding: 20px;
-	border-radius: 20px;
-	transition: background-color 2s;
-	background-color: blue;
-	color:white;
+	
 
 }
 
 .hidetxt 
 {
 	display: none;
+
 }
 
 .hideAgain 
@@ -47,7 +52,9 @@ body{
 }
 
 .activeimg {
-	border: 1px solid gray;
+	border: 2px solid gray;
+	
+
 }
 
 
@@ -56,7 +63,16 @@ body{
     margin-left: auto;
     margin-right: auto;
     z-index: 100;
+    border: 2px solid gray;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: blue;
+	color:white;
+	margin-bottom: 10px;
+    
 }
+
+
 
 .txtp img{
 	float: left;
@@ -67,4 +83,13 @@ body{
 .txtp button
 {
  color:tomato;
+}
+
+
+.cta 
+{
+	width:30%;
+	height: 40px;
+	border-radius: 10px;
+	margin-left: 210px;
 }
